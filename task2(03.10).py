@@ -1,5 +1,7 @@
 import math
-class triangle:
+
+
+class Triangle:
     A = {"x": 5, "y": 3}
     B = {"x": 1, "y": 9}
     C = {"x": -3, "y": 4}
@@ -26,7 +28,7 @@ class triangle:
         print("Точка пересечения медиан - (",x,",",y,")")
 
 
-treyg = triangle()
+treyg = Triangle()
 treyg.square()
 treyg.perim()
 treyg.peres_median()
