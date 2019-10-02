@@ -47,7 +47,7 @@ class Bez_Verh(Flat):
 class Circle(Bez_Verh):
 
     def info(self):
-        print("Круг,наследник плоских фигур без вершин")
+        print("Круг, наследник плоских фигур без вершин")
 
     def __init__(self,r,color):
         print()
@@ -67,7 +67,7 @@ class Circle(Bez_Verh):
 class Ellips(Bez_Verh):
 
     def info(self):
-        print("Эллипс,наследник плоских фигур без вершин")
+        print("Эллипс, наследник плоских фигур без вершин")
 
     def __init__(self,a,b,color):
         print()
