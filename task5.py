@@ -1,4 +1,4 @@
-def levenshatin(a, b):
+def levenshtein(a, b):
     a, b = a.lower(), b.lower()
     n = len(a)
     m = len(b)
@@ -16,4 +16,4 @@ def levenshatin(a, b):
             row_now[j] = min(frst, scnd, thrd)
     return row_now[n]
 
-print(levenshatin("Привет", "Притев"))
+print(levenshtein("Привет", "Притев"))
