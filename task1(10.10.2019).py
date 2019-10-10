@@ -6,9 +6,6 @@ class Human:
     def __init__(self, name):
         self.name = name
 
-    def show(self):
-        print("%s, пишет сообщение" %self.name)
-
     def move(self,x,y):
         self.position['x'] = x
         self.position['y'] = y
@@ -20,7 +17,7 @@ class Human:
 
 class Do:
 
-    def move(self, name, posit):
+    def make(self, name, obj):
         raise NotImplementedError()
 
 
@@ -80,8 +77,9 @@ b.make("игру")
 
 bui = Builder("Денис")
 bui.make("дом")
-bui.move(5,2)
+bui.move(5, 2)
 
 prog = Programmer("Олег")
 prog.make("соц. сеть")
+
 
